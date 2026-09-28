@@ -76,3 +76,6 @@ background-size:30px 30px,420px 420px;background-position:40px 25px,calc(100% + 
 .hero:after{content:"";position:absolute;width:115px;height:115px;left:7%;top:20%;background-image:radial-gradient(circle,#1f5fae 2px,transparent 2.5px);background-size:15px 15px;opacity:.8;pointer-events:none}
 .hero .wrap{position:relative;z-index:1}
 @media(max-width:700px){.hero:before{width:170px;height:170px;border-width:18px;left:55%;bottom:-135px}.hero:after{width:75px;height:75px;left:2%;top:10%;opacity:.45}.hero{background-size:24px 24px,280px 280px;background-position:15px 20px,calc(100% + 120px) -80px}}
+
+/* YouTube: color de marca */
+.youtube-card{background:#ff0000!important}
