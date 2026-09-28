@@ -79,3 +79,14 @@ background-size:30px 30px,420px 420px;background-position:40px 25px,calc(100% + 
 
 /* YouTube: color de marca */
 .youtube-card{background:#ff0000!important}
+
+/* Tarjetas de confianza completamente clicables */
+.trust-card-link{display:flex;text-decoration:none;cursor:pointer;transition:transform .2s ease,box-shadow .2s ease}
+.trust-card-link:hover{transform:translateY(-3px);box-shadow:0 14px 30px #0002}
+.trust-cta{font-weight:800;margin-top:auto}
+
+/* Isotipo MagimixTech: fallback vectorial en CSS para header y footer */
+.brand-mark{width:44px;height:44px;flex:none;border-radius:7px;background:#2d78d7;position:relative;display:block;overflow:hidden}
+.brand-mark .mark-m,.brand-mark .mark-a{position:absolute;color:#fff;font-family:Arial,sans-serif;font-weight:900;font-style:italic;line-height:1}
+.brand-mark .mark-m{font-size:29px;left:5px;top:8px;transform:skew(-12deg)}
+.brand-mark .mark-a{font-size:27px;right:4px;top:9px;transform:skew(-8deg)}
